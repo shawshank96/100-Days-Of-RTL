@@ -1,4 +1,6 @@
 // A simple TB for 2:1 MUX
+`timescale  1ns/1ps
+`include "day1.sv"
 
 module day1_tb ();
     logic [7:0] a_i;
